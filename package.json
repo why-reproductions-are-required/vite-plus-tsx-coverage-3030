@@ -1,0 +1,16 @@
+{
+  "name": "vite-plus-tsx-coverage-3030",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.7",
+  "scripts": {
+    "repro": "node scripts/repro.mjs",
+    "test:vp": "vp test run --config vite.config.ts --coverage",
+    "test:vitest": "node scripts/run-vitest.mjs run --config vitest-standalone.config.ts --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "5.0.1",
+    "jsdom": "30.1.2",
+    "vite-plus": "1.0.0"
+  }
+}
